@@ -1,0 +1,137 @@
+{
+  "uid" : "ca4c6374218dd284",
+  "name" : "test001_login",
+  "fullName" : "TestCases.test_groupCall.Test_groupCall#test001_login",
+  "historyId" : "7d3ca9d0eccee10bcc7c5cfd521330c8",
+  "time" : {
+    "start" : 1551265150400,
+    "stop" : 1551265249644,
+    "duration" : 99244
+  },
+  "description" : "登入选择单位",
+  "descriptionHtml" : "<p>登入选择单位</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connectDevice",
+    "time" : {
+      "start" : 1551265142831,
+      "stop" : 1551265150397,
+      "duration" : 7566
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1551265142830,
+      "stop" : 1551265142830,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "登入选择单位",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "43c887b665e4803f",
+      "name" : "log",
+      "source" : "43c887b665e4803f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ca0e66200d0da538",
+      "name" : "stdout",
+      "source" : "ca0e66200d0da538.txt",
+      "type" : "text/plain",
+      "size" : 13
+    }, {
+      "uid" : "c72194c7eb491a9c",
+      "name" : "stderr",
+      "source" : "c72194c7eb491a9c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "connectDevice::0",
+    "time" : {
+      "start" : 1551265249646,
+      "stop" : 1551265250366,
+      "duration" : 720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "group_call"
+  }, {
+    "name" : "story",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_groupCall"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_groupCall"
+  }, {
+    "name" : "host",
+    "value" : "WINMICR-BOITIN6"
+  }, {
+    "name" : "thread",
+    "value" : "337748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_groupCall"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca4c6374218dd284.json",
+  "parameterValues" : [ ]
+}

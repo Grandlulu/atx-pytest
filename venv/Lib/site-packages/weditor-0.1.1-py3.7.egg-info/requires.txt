@@ -1,0 +1,6 @@
+tornado>=4.3
+six
+pillow
+
+[:(python_version <= '2.7')]
+futures>=3.0.5

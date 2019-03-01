@@ -1,0 +1,21 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WINMICR-BOITIN6",
+    "children" : [ {
+      "name" : "336960-MainThread",
+      "children" : [ {
+        "name" : "test001_login",
+        "uid" : "957187106a204937",
+        "parentUid" : "7196e40d9286c05d5b3da7af420559c1",
+        "status" : "broken",
+        "time" : { },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7196e40d9286c05d5b3da7af420559c1"
+    } ],
+    "uid" : "ef3a149e5813a5057257b3e599a9361b"
+  } ]
+}

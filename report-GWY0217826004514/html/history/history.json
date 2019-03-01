@@ -1,0 +1,18 @@
+{
+  "7d3ca9d0eccee10bcc7c5cfd521330c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "957187106a204937",
+      "status" : "broken",
+      "statusDetails" : "uiautomator2.exceptions.SessionBrokenError: ('cn.vsx.vc', 'package not found\\n')",
+      "time" : { }
+    } ]
+  }
+}

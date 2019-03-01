@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.test_groupCall",
+    "children" : [ {
+      "name" : "test001_login",
+      "uid" : "ff242268dd4a109f",
+      "parentUid" : "c56939e0a2e40c47d701ed37a8dc9d2e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1550656792872,
+        "stop" : 1550656816191,
+        "duration" : 23319
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestCases.test_groupCall"
+  } ]
+}
