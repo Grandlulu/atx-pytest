@@ -57,7 +57,7 @@ ip和port为atx-server相应ip和端口
 基本操作
 连接设备和操作
 
-# coding: utf-8
+
 import uiautomator2 as u2
 
 u = u2.connect_usb()
