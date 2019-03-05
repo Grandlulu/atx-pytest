@@ -40,16 +40,16 @@ Android手机 4.3+(sdk 18)
 
 命令行CMD或Pycharm自己的venv环境中 
 
-pip install -U --pre uiautomator2
+    pip install -U --pre uiautomator2
 然后等待安装成功
 
 # 初始化设备
 手机连接上usb，运行初始化命令
 
-python -m uiautomator2 init
+    python -m uiautomator2 init
 如有atx-server设备集群管理，则可
 
-python -m uiautomator2 init --server ip:port
+    python -m uiautomator2 init --server ip:port
 ip和port为atx-server相应ip和端口
 
 等待初始化成功即可。
