@@ -6,17 +6,25 @@
 import subprocess
 import requests
 import json
+import time
 
 
 def getDevices():  # 从ATX-Server获取设备列表IP
     devices_list = []
-    res = requests.get(url="http://127.0.0.1:9000/list")
-    result = json.loads(res.content)
-    for i in range(len(result)):
-        if result[i]["present"] == True:
-            devices_list.append(result[i]["ip"])
-        else:
-            pass
+    try:
+        res = requests.get(url="http://127.0.0.1:9000/list")
+        result = json.loads(res.content)
+        for i in range(len(result)):
+            if result[i]["present"] == True:
+                devices_list.append(result[i]["ip"])
+            else:
+                pass
+        print(f"devices_list is {devices_list}")
+        print(f"devices_list len is {len(devices_list)}")
+    except:
+        time.sleep(1)
+        print('reconnect device in 1 sec')
+        getDevices()
     return devices_list
 
 
@@ -57,6 +65,7 @@ def getPhoneInfo(devicesIP):  # 从IP信息获取手机信息
     return PhoneInfo
 
 
+
 if __name__ == '__main__':
     print(getPhoneInfo('192.168.0.116'))
-    print(getDevices())
+    # print(deviceChecker(1))
