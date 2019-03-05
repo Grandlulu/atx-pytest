@@ -58,17 +58,13 @@ ip和port为atx-server相应ip和端口
 连接设备和操作
 
 
-import uiautomator2 as u2
-
-u = u2.connect_usb()
-或
-u = u2.connect(ip)
-
-driver = u.session("cn.vsx.vc")
-
-driver(className="android.widget.Button", resourceId="cn.vsx.vc:id/ptt").long_click(duration=2, timeout=10)
-
-assert driver(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
+    import uiautomator2 as u2
+    u = u2.connect_usb()
+    或
+    u = u2.connect(ip)
+    driver = u.session("cn.vsx.vc")
+    driver(className="android.widget.Button", resourceId="cn.vsx.vc:id/ptt").long_click(duration=2, timeout=10)
+    assert driver(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
 
 剩下的控制操作可参考官方文档： https://github.com/openatx/uiautomator2
 
@@ -79,47 +75,34 @@ assert driver(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
 
 通过CMD命令启动pytest的时候，代入并发所需要的参数即可：
 
-pytest.main(["../TestCases/", f"--cmdopt={Phone['ip']}", "--alluredir"])
+    pytest.main(["../TestCases/", f"--cmdopt={Phone['ip']}", "--alluredir"])
 
 
 在测试用例目录下的conftest加入cmdopt参数代入方法:
 
-def pytest_addoption(parser):
-
-    parser.addoption("--cmdopt", action="store", default="device", help="None")
+    def pytest_addoption(parser):
+        parser.addoption("--cmdopt", action="store", default="device", help="None")
     
-@pytest.fixture(scope="session")
-
-def cmdopt(request):
-
-    return request.config.getoption("--cmdopt")
+    @pytest.fixture(scope="session")
+    def cmdopt(request):
+        return request.config.getoption("--cmdopt")
     
-@pytest.fixture(scope="session")
-
-def connectDevice(cmdopt):
-
-    address = cmdopt
-    
-    d = u2.connect(addr=address)
-    
-    d.set_fastinput_ime(True)
-    
-    driver = d.session("cn.vsx.vc")
-    
-    yield driver
-    
-    print("driver finished")
-    
-    driver.close()
+    @pytest.fixture(scope="session")
+    def connectDevice(cmdopt):
+        address = cmdopt
+        d = u2.connect(addr=address)
+        d.set_fastinput_ime(True)
+        driver = d.session("cn.vsx.vc")
+        yield driver
+        print("driver finished")
+        driver.close()
 
 
 然后通过concurrent.future的多线程ProcessPoolExcutor 去并发启动包含pytest.main的方法
 
-def runnerPool(deviceIP_list):  # 启动多进程运行测试
-
-    with ProcessPoolExecutor(len(getDevices())) as pool:
-    
-        pool.map(runPytest, deviceIP_list)
+    def runnerPool(deviceIP_list):  # 启动多进程运行测试
+        with ProcessPoolExecutor(len(getDevices())) as pool:
+            pool.map(runPytest, deviceIP_list)
         
 自此，整体的设计思路完成。 pytest的框架功能以及插件非常丰富，可以自己查找相关资料使用
 
