@@ -7,8 +7,6 @@ from concurrent.futures import ProcessPoolExecutor
 from Core.deviceInfo import *
 import pytest
 from Core.server import *
-import requests
-import json
 
 filePath = os.path.dirname(os.path.abspath("__file__"))
 serverPath = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Core")
@@ -59,5 +57,5 @@ def runPytest(device_IP):  # 运行测试
 if __name__ == '__main__':
     server = atx_server()
     server.start_server(serverPath)
-    deviceChecker(2)
+    deviceChecker(1)
     runnerPool(getDevices())
