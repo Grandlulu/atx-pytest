@@ -1,6 +1,6 @@
 # atx-pytest
 atx-pytest automation test frame
-开头
+# 开头
 相信不少用过appium的同学，对于使用appium的一些体会与感受是否与我相似
 
 1. appium启动服务和app程序非常慢
@@ -29,12 +29,12 @@ github地址：https://github.com/openatx
 
  
 
-ATX介绍
+# ATX介绍
 atx架构图
 略
 
 
-安装
+# 安装
 适用范围
 Android手机 4.3+(sdk 18)
 
@@ -43,7 +43,7 @@ Android手机 4.3+(sdk 18)
 pip install -U --pre uiautomator2
 然后等待安装成功
 
-初始化设备
+# 初始化设备
 手机连接上usb，运行初始化命令
 
 python -m uiautomator2 init
@@ -54,7 +54,7 @@ ip和port为atx-server相应ip和端口
 
 等待初始化成功即可。
 
-基本操作
+# 基本操作
 连接设备和操作
 
 
@@ -70,7 +70,7 @@ assert driver(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
 剩下的控制操作可参考官方文档： https://github.com/openatx/uiautomator2
 
 
-结合Pytest单元测试框架与并发
+# 结合Pytest单元测试框架与并发
 思路：
 之前的文章介绍过pytest单元测试框架如何进行并发，此处可以重复一下：
 
