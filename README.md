@@ -79,16 +79,16 @@ assert driver(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
 pytest.main(["../TestCases/", f"--cmdopt={Phone['ip']}", "--alluredir"])
 在测试用例目录下的conftest加入cmdopt参数代入方法
 
-def pytest_addoption(parser):  / 定义命令行传参参数
+def pytest_addoption(parser):
     parser.addoption("--cmdopt", action="store", default="device", help="None")
 
 
-@pytest.fixture(scope="session")  / 命令行参数传递给pytest
+@pytest.fixture(scope="session")
 def cmdopt(request):
     return request.config.getoption("--cmdopt")
 
 
-@pytest.fixture(scope="session")  / 初始化开始连接设备
+@pytest.fixture(scope="session")
 def connectDevice(cmdopt):
     address = cmdopt
     d = u2.connect(addr=address)
