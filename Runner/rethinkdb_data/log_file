@@ -949,3 +949,345 @@
 2019-02-27T17:55:55.729000000 1.498944s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 41.
 2019-02-27T17:55:55.779000000 1.549329s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 41. Latest log index is 144.
 2019-02-27T17:55:59.981000000 5.750543s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:38:51.174000000 0.040678s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:38:51.174000001 0.040737s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:38:51.174000002 0.040750s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:38:51.319000000 0.185803s info: Automatically using cache size of 573 MB
+2019-03-04T11:38:51.344000000 0.209998s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:38:51.471000000 0.337335s notice: Listening for client driver connections on port 28015
+2019-03-04T11:38:51.471000001 0.337456s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:38:51.471000002 0.337457s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:38:51.471000003 0.337474s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:38:51.471000004 0.337475s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:38:51.471000005 0.337475s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:38:51.471000006 0.337476s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:38:52.857000000 1.722843s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 42.
+2019-03-04T11:38:52.862000000 1.727813s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 42.
+2019-03-04T11:38:52.922000000 1.787962s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 42. Latest log index is 143.
+2019-03-04T11:38:53.065000000 1.931200s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 42. Latest log index is 147.
+2019-03-04T11:38:53.201000000 2.067088s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 42.
+2019-03-04T11:38:53.253000000 2.119045s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 42. Latest log index is 141.
+2019-03-04T11:38:57.857000000 6.723301s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:39:39.953000000 0.010273s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:39:39.953000001 0.010324s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:39:39.953000002 0.010340s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:39:40.070000000 0.127637s info: Automatically using cache size of 576 MB
+2019-03-04T11:39:40.074000000 0.131255s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:39:40.134000000 0.191228s notice: Listening for client driver connections on port 28015
+2019-03-04T11:39:40.134000001 0.191368s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:39:40.134000002 0.191369s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:39:40.134000003 0.191370s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:39:40.134000004 0.191377s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:39:40.134000005 0.191378s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:39:40.134000006 0.191378s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:39:41.396000000 1.452970s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 43.
+2019-03-04T11:39:41.448000000 1.505062s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 43. Latest log index is 150.
+2019-03-04T11:39:41.905000000 1.961973s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 43.
+2019-03-04T11:39:41.955000000 2.012038s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 43. Latest log index is 146.
+2019-03-04T11:39:42.108000000 2.164883s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 43.
+2019-03-04T11:39:42.215000000 2.272172s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 43. Latest log index is 145.
+2019-03-04T11:39:45.875000000 5.931448s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:48:59.566000000 0.014350s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:48:59.566000001 0.014424s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:48:59.566000002 0.014446s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:48:59.642000000 0.090062s info: Automatically using cache size of 536 MB
+2019-03-04T11:48:59.645000000 0.093706s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:48:59.715000000 0.163049s notice: Listening for client driver connections on port 28015
+2019-03-04T11:48:59.715000001 0.163227s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:48:59.715000002 0.163229s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:48:59.715000003 0.163230s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:48:59.715000004 0.163244s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:48:59.715000005 0.163245s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:48:59.715000006 0.163246s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:49:00.719000000 1.167094s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 44.
+2019-03-04T11:49:00.769000000 1.217290s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 44. Latest log index is 150.
+2019-03-04T11:49:00.870000000 1.318194s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 44.
+2019-03-04T11:49:00.911000000 1.359257s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 44. Latest log index is 154.
+2019-03-04T11:49:00.980000000 1.428242s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 44.
+2019-03-04T11:49:01.045000000 1.493048s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 44. Latest log index is 149.
+2019-03-04T11:49:05.162000000 5.609719s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:49:13.040000000 0.007807s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:49:13.040000001 0.007853s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:49:13.040000002 0.007863s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:49:13.142000000 0.109547s info: Automatically using cache size of 516 MB
+2019-03-04T11:49:13.144000000 0.111888s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:49:13.203000000 0.170348s notice: Listening for client driver connections on port 28015
+2019-03-04T11:49:13.203000001 0.170465s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:49:13.203000002 0.170476s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:49:13.203000003 0.170477s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:49:13.203000004 0.170477s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:49:13.203000005 0.170478s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:49:13.203000006 0.170478s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:49:14.308000000 1.275622s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 45.
+2019-03-04T11:49:14.358000000 1.325630s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 45. Latest log index is 158.
+2019-03-04T11:49:14.714000000 1.681502s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 45.
+2019-03-04T11:49:14.827000000 1.794587s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 45. Latest log index is 154.
+2019-03-04T11:49:14.860000000 1.827483s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 45.
+2019-03-04T11:49:15.098000000 2.065961s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 45. Latest log index is 152.
+2019-03-04T11:49:18.659000000 5.626276s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:49:46.341000000 0.007815s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:49:46.342000000 0.007905s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:49:46.342000001 0.007919s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:49:46.409000000 0.075811s info: Automatically using cache size of 521 MB
+2019-03-04T11:49:46.413000000 0.079692s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:49:46.494000000 0.160567s notice: Listening for client driver connections on port 28015
+2019-03-04T11:49:46.494000001 0.160697s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:49:46.494000002 0.160698s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:49:46.494000003 0.160699s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:49:46.494000004 0.160706s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:49:46.494000005 0.160706s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:49:46.494000006 0.160707s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:49:47.858000000 1.524031s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 46.
+2019-03-04T11:49:47.904000000 1.570274s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 46. Latest log index is 162.
+2019-03-04T11:49:48.004000000 1.670106s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 46.
+2019-03-04T11:49:48.046000000 1.712039s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 46. Latest log index is 158.
+2019-03-04T11:49:48.074000000 1.740034s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 46.
+2019-03-04T11:49:48.137000000 1.803516s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 46. Latest log index is 155.
+2019-03-04T11:49:52.013000000 5.678979s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:50:27.405000000 0.007242s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:50:27.405000001 0.007282s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:50:27.405000002 0.007293s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:50:27.503000000 0.104570s info: Automatically using cache size of 530 MB
+2019-03-04T11:50:27.505000000 0.106604s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:50:27.562000000 0.163727s notice: Listening for client driver connections on port 28015
+2019-03-04T11:50:27.562000001 0.163848s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:50:27.562000002 0.163851s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:50:27.562000003 0.163851s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:50:27.562000004 0.163859s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:50:27.562000005 0.163859s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:50:27.562000006 0.163860s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:50:28.905000000 1.506817s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 47.
+2019-03-04T11:50:28.943000000 1.544583s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 47. Latest log index is 161.
+2019-03-04T11:50:29.169000000 1.770630s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 47.
+2019-03-04T11:50:29.218000000 1.819722s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 47. Latest log index is 165.
+2019-03-04T11:50:29.504000000 2.105786s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 47.
+2019-03-04T11:50:29.671000000 2.272743s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 47. Latest log index is 158.
+2019-03-04T11:50:33.078000000 5.679410s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:50:48.355000000 0.007303s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:50:48.355000001 0.007335s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:50:48.355000002 0.007345s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:50:48.419000000 0.071479s info: Automatically using cache size of 511 MB
+2019-03-04T11:50:48.422000000 0.074300s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:50:48.484000000 0.136616s notice: Listening for client driver connections on port 28015
+2019-03-04T11:50:48.485000000 0.136746s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:50:48.485000001 0.136758s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:50:48.485000002 0.136759s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:50:48.485000003 0.136760s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:50:48.485000004 0.136761s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:50:48.485000005 0.136762s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:50:49.639000000 1.291147s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 48.
+2019-03-04T11:50:49.694000000 1.346189s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 48. Latest log index is 161.
+2019-03-04T11:50:50.006000000 1.657858s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 48.
+2019-03-04T11:50:50.076000000 1.727901s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 48. Latest log index is 164.
+2019-03-04T11:50:50.370000000 2.021909s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 48.
+2019-03-04T11:50:50.476000000 2.128148s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 48. Latest log index is 169.
+2019-03-04T11:50:54.003000000 5.655081s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:58:28.774000000 0.007310s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:58:28.774000001 0.007350s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:58:28.774000002 0.007361s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:58:28.942000000 0.175315s info: Automatically using cache size of 522 MB
+2019-03-04T11:58:28.944000000 0.178113s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:58:29.008000000 0.241958s notice: Listening for client driver connections on port 28015
+2019-03-04T11:58:29.008000001 0.242091s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:58:29.008000002 0.242092s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:58:29.008000003 0.242093s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:58:29.008000004 0.242100s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:58:29.008000005 0.242100s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:58:29.008000006 0.242101s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:58:30.378000000 1.611563s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 49.
+2019-03-04T11:58:30.418000000 1.651478s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 49.
+2019-03-04T11:58:30.426000000 1.659653s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 49. Latest log index is 167.
+2019-03-04T11:58:30.431000000 1.664452s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 49.
+2019-03-04T11:58:30.469000000 1.702979s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 49. Latest log index is 164.
+2019-03-04T11:58:30.488000000 1.721320s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 49. Latest log index is 173.
+2019-03-04T11:58:34.499000000 5.732611s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T11:59:36.954000000 0.017193s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T11:59:36.954000001 0.017235s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T11:59:36.954000002 0.017246s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T11:59:37.125000000 0.188616s info: Automatically using cache size of 519 MB
+2019-03-04T11:59:37.130000000 0.193099s notice: Listening for intracluster connections on port 29015
+2019-03-04T11:59:37.193000000 0.256138s notice: Listening for client driver connections on port 28015
+2019-03-04T11:59:37.193000001 0.256251s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T11:59:37.193000002 0.256253s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T11:59:37.193000003 0.256264s notice: Listening on driver address: 127.0.0.1
+2019-03-04T11:59:37.193000004 0.256264s notice: Listening on http address: 127.0.0.1
+2019-03-04T11:59:37.193000005 0.256265s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T11:59:37.193000006 0.256266s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T11:59:38.905000000 1.968047s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 50.
+2019-03-04T11:59:38.915000000 1.978012s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 50.
+2019-03-04T11:59:38.948000000 2.011210s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 50. Latest log index is 168.
+2019-03-04T11:59:39.021000000 2.083965s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 50.
+2019-03-04T11:59:39.061000000 2.123987s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 50. Latest log index is 176.
+2019-03-04T11:59:39.094000000 2.157070s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 50. Latest log index is 170.
+2019-03-04T11:59:42.588000000 5.650674s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T13:46:47.273000000 0.015336s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T13:46:47.273000001 0.015414s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T13:46:47.273000002 0.015437s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T13:46:47.340000000 0.082598s info: Automatically using cache size of 468 MB
+2019-03-04T13:46:47.342000000 0.083879s notice: Listening for intracluster connections on port 29015
+2019-03-04T13:46:47.404000000 0.146729s notice: Listening for client driver connections on port 28015
+2019-03-04T13:46:47.404000001 0.146838s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T13:46:47.404000002 0.146839s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T13:46:47.404000003 0.146839s notice: Listening on driver address: 127.0.0.1
+2019-03-04T13:46:47.405000000 0.146855s notice: Listening on http address: 127.0.0.1
+2019-03-04T13:46:47.405000001 0.146856s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T13:46:47.405000002 0.146857s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T13:46:48.664000000 1.406250s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 51.
+2019-03-04T13:46:48.719000000 1.460896s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 51. Latest log index is 171.
+2019-03-04T13:46:48.990000000 1.732027s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 51.
+2019-03-04T13:46:49.044000000 1.786716s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 51. Latest log index is 180.
+2019-03-04T13:46:49.256000000 1.998093s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 51.
+2019-03-04T13:46:49.370000000 2.112667s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 51. Latest log index is 174.
+2019-03-04T13:46:52.928000000 5.669741s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T13:54:18.497000000 0.007582s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T13:54:18.497000001 0.007620s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T13:54:18.497000002 0.007631s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T13:54:18.570000000 0.080264s info: Automatically using cache size of 467 MB
+2019-03-04T13:54:18.574000000 0.083912s notice: Listening for intracluster connections on port 29015
+2019-03-04T13:54:18.638000000 0.147962s notice: Listening for client driver connections on port 28015
+2019-03-04T13:54:18.638000001 0.148086s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T13:54:18.638000002 0.148087s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T13:54:18.638000003 0.148105s notice: Listening on driver address: 127.0.0.1
+2019-03-04T13:54:18.638000004 0.148106s notice: Listening on http address: 127.0.0.1
+2019-03-04T13:54:18.638000005 0.148106s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T13:54:18.638000006 0.148106s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T13:54:20.359000000 1.868841s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 52.
+2019-03-04T13:54:20.407000000 1.917447s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 52. Latest log index is 177.
+2019-03-04T13:54:20.513000000 2.022968s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 52.
+2019-03-04T13:54:20.549000000 2.059154s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 52. Latest log index is 174.
+2019-03-04T13:54:20.587000000 2.096846s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 52.
+2019-03-04T13:54:20.632000000 2.142322s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 52. Latest log index is 184.
+2019-03-04T13:54:24.218000000 5.728026s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T13:56:12.234000000 0.007434s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T13:56:12.234000001 0.007475s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T13:56:12.234000002 0.007486s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T13:56:12.305000000 0.079405s info: Automatically using cache size of 469 MB
+2019-03-04T13:56:12.310000000 0.083464s notice: Listening for intracluster connections on port 29015
+2019-03-04T13:56:12.374000000 0.148329s notice: Listening for client driver connections on port 28015
+2019-03-04T13:56:12.375000000 0.148465s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T13:56:12.375000001 0.148467s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T13:56:12.375000002 0.148468s notice: Listening on driver address: 127.0.0.1
+2019-03-04T13:56:12.375000003 0.148478s notice: Listening on http address: 127.0.0.1
+2019-03-04T13:56:12.375000004 0.148479s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T13:56:12.375000005 0.148480s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T13:56:13.779000000 1.552653s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 53.
+2019-03-04T13:56:13.834000000 1.607709s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 53. Latest log index is 188.
+2019-03-04T13:56:14.220000000 1.993392s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 53.
+2019-03-04T13:56:14.242000000 2.015459s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 53.
+2019-03-04T13:56:14.285000000 2.058767s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 53. Latest log index is 181.
+2019-03-04T13:56:14.325000000 2.098760s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 53. Latest log index is 178.
+2019-03-04T13:56:17.933000000 5.706921s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T13:58:22.207000000 0.007824s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T13:58:22.207000001 0.007865s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T13:58:22.207000002 0.007876s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T13:58:22.270000000 0.070916s info: Automatically using cache size of 465 MB
+2019-03-04T13:58:22.274000000 0.074780s notice: Listening for intracluster connections on port 29015
+2019-03-04T13:58:22.338000000 0.138743s notice: Listening for client driver connections on port 28015
+2019-03-04T13:58:22.338000001 0.138867s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T13:58:22.338000002 0.138879s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T13:58:22.338000003 0.138881s notice: Listening on driver address: 127.0.0.1
+2019-03-04T13:58:22.338000004 0.138881s notice: Listening on http address: 127.0.0.1
+2019-03-04T13:58:22.338000005 0.138882s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T13:58:22.338000006 0.138882s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T13:58:23.397000000 1.197396s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 54.
+2019-03-04T13:58:23.442000000 1.242200s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 54. Latest log index is 181.
+2019-03-04T13:58:24.047000000 1.847444s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 54.
+2019-03-04T13:58:24.098000000 1.898831s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 54. Latest log index is 191.
+2019-03-04T13:58:24.249000000 2.049802s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 54.
+2019-03-04T13:58:24.307000000 2.107455s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 54. Latest log index is 184.
+2019-03-04T13:58:28.075000000 5.875701s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T13:59:57.043000000 0.007681s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T13:59:57.043000001 0.007720s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T13:59:57.043000002 0.007730s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T13:59:57.115000000 0.079755s info: Automatically using cache size of 474 MB
+2019-03-04T13:59:57.117000000 0.081480s notice: Listening for intracluster connections on port 29015
+2019-03-04T13:59:57.205000000 0.169187s notice: Listening for client driver connections on port 28015
+2019-03-04T13:59:57.205000001 0.169320s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T13:59:57.205000002 0.169321s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T13:59:57.205000003 0.169322s notice: Listening on driver address: 127.0.0.1
+2019-03-04T13:59:57.205000004 0.169340s notice: Listening on http address: 127.0.0.1
+2019-03-04T13:59:57.205000005 0.169341s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T13:59:57.205000006 0.169342s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T13:59:58.518000000 1.482405s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 55.
+2019-03-04T13:59:58.568000000 1.532351s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 55. Latest log index is 188.
+2019-03-04T13:59:58.875000000 1.839443s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 55.
+2019-03-04T13:59:58.993000000 1.957471s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 55. Latest log index is 184.
+2019-03-04T13:59:59.101000000 2.065389s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 55.
+2019-03-04T13:59:59.225000000 2.189879s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 55. Latest log index is 195.
+2019-03-04T14:00:02.738000000 5.701941s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T14:02:10.890000000 0.007126s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T14:02:10.890000001 0.007167s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T14:02:10.890000002 0.007179s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T14:02:10.960000000 0.077414s info: Automatically using cache size of 478 MB
+2019-03-04T14:02:10.963000000 0.081070s notice: Listening for intracluster connections on port 29015
+2019-03-04T14:02:11.031000000 0.148548s notice: Listening for client driver connections on port 28015
+2019-03-04T14:02:11.031000001 0.148765s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T14:02:11.031000002 0.148767s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T14:02:11.031000003 0.148768s notice: Listening on driver address: 127.0.0.1
+2019-03-04T14:02:11.031000004 0.148780s notice: Listening on http address: 127.0.0.1
+2019-03-04T14:02:11.031000005 0.148781s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T14:02:11.031000006 0.148782s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T14:02:12.479000000 1.596466s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 56.
+2019-03-04T14:02:12.529000000 1.646319s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 56. Latest log index is 188.
+2019-03-04T14:02:12.690000000 1.807452s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 56.
+2019-03-04T14:02:12.738000000 1.855070s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 56. Latest log index is 198.
+2019-03-04T14:02:12.749000000 1.866418s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 56.
+2019-03-04T14:02:12.804000000 1.921948s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 56. Latest log index is 192.
+2019-03-04T14:02:16.663000000 5.780043s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T14:04:30.927000000 0.006733s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T14:04:30.927000001 0.006773s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T14:04:30.927000002 0.006785s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T14:04:30.994000000 0.073594s info: Automatically using cache size of 457 MB
+2019-03-04T14:04:30.998000000 0.077288s notice: Listening for intracluster connections on port 29015
+2019-03-04T14:04:31.061000000 0.140309s notice: Listening for client driver connections on port 28015
+2019-03-04T14:04:31.061000001 0.140430s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T14:04:31.061000002 0.140431s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T14:04:31.061000003 0.140432s notice: Listening on driver address: 127.0.0.1
+2019-03-04T14:04:31.061000004 0.140444s notice: Listening on http address: 127.0.0.1
+2019-03-04T14:04:31.061000005 0.140445s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T14:04:31.061000006 0.140446s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T14:04:32.340000000 1.419241s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 57.
+2019-03-04T14:04:32.382000000 1.461534s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 57. Latest log index is 202.
+2019-03-04T14:04:32.581000000 1.660236s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 57.
+2019-03-04T14:04:32.624000000 1.703398s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 57. Latest log index is 196.
+2019-03-04T14:04:32.954000000 2.033097s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 57.
+2019-03-04T14:04:33.049000000 2.128390s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 57. Latest log index is 192.
+2019-03-04T14:04:36.658000000 5.737079s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-04T14:16:16.684000000 0.007420s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-04T14:16:16.684000001 0.007459s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-04T14:16:16.684000002 0.007470s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-04T14:16:16.756000000 0.078989s info: Automatically using cache size of 473 MB
+2019-03-04T14:16:16.760000000 0.082650s notice: Listening for intracluster connections on port 29015
+2019-03-04T14:16:16.832000000 0.154893s notice: Listening for client driver connections on port 28015
+2019-03-04T14:16:16.832000001 0.155040s notice: Listening for administrative HTTP connections on port 8090
+2019-03-04T14:16:16.832000002 0.155054s notice: Listening on cluster address: 127.0.0.1
+2019-03-04T14:16:16.832000003 0.155054s notice: Listening on driver address: 127.0.0.1
+2019-03-04T14:16:16.832000004 0.155055s notice: Listening on http address: 127.0.0.1
+2019-03-04T14:16:16.832000005 0.155055s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-04T14:16:16.832000006 0.155056s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-04T14:16:18.288000000 1.610882s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 58.
+2019-03-04T14:16:18.360000000 1.682553s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 58. Latest log index is 195.
+2019-03-04T14:16:18.430000000 1.752728s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 58.
+2019-03-04T14:16:18.485000000 1.807993s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 58. Latest log index is 205.
+2019-03-04T14:16:18.709000000 2.031693s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 58.
+2019-03-04T14:16:18.810000000 2.132859s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 58. Latest log index is 199.
+2019-03-04T14:16:22.477000000 5.799549s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
+2019-03-21T21:01:08.808000000 0.008939s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-21T21:01:08.808000001 0.008985s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2019-03-21T21:01:08.808000002 0.008996s notice: Loading data from directory E:\\atx-pytest\\Runner\\rethinkdb_data
+2019-03-21T21:01:08.940000000 0.140672s info: Automatically using cache size of 679 MB
+2019-03-21T21:01:08.942000000 0.142797s notice: Listening for intracluster connections on port 29015
+2019-03-21T21:01:09.158000000 0.358893s notice: Listening for client driver connections on port 28015
+2019-03-21T21:01:09.158000001 0.359108s notice: Listening for administrative HTTP connections on port 8090
+2019-03-21T21:01:09.158000002 0.359110s notice: Listening on cluster address: 127.0.0.1
+2019-03-21T21:01:09.158000003 0.359140s notice: Listening on driver address: 127.0.0.1
+2019-03-21T21:01:09.158000004 0.359141s notice: Listening on http address: 127.0.0.1
+2019-03-21T21:01:09.158000005 0.359142s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-21T21:01:09.158000006 0.359143s notice: Server ready, "WINMICR_BOITIN6_qaq" a73618d6-96cd-4b67-ad89-fb1684b7b30a
+2019-03-21T21:01:10.249000000 1.449605s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Starting a new Raft election for term 59.
+2019-03-21T21:01:10.252000000 1.452498s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: Starting a new Raft election for term 59.
+2019-03-21T21:01:10.299000000 1.499325s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: This server is Raft leader for term 59. Latest log index is 202.
+2019-03-21T21:01:10.348000000 1.549197s info: Table b2f6adc9-a66a-498c-bb47-8c3a2d58baf3: This server is Raft leader for term 59. Latest log index is 199.
+2019-03-21T21:01:10.909000000 2.109551s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: Starting a new Raft election for term 59.
+2019-03-21T21:01:11.005000000 2.205728s info: Table ab2612d4-ef8c-4abd-8c12-9b4539222480: This server is Raft leader for term 59. Latest log index is 208.
+2019-03-21T21:01:14.675000000 5.875364s info: Table 42870803-bc8c-40f7-a496-fc0a2a33e08a: Configuration is changing.
