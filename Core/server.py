@@ -57,5 +57,5 @@ class atx_server():
 
 if __name__ == '__main__':
     a = atx_server()
-    a.restart_server(serverPath)
-    # a.stop_server()
+    # a.start_server(serverPath)
+    a.stop_server(serverPath)

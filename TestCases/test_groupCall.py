@@ -12,8 +12,10 @@ class Test_groupCall():
     def test001_login(self, connectDevice):
         '''登入选择单位'''
         time.sleep(3)
-        for i in range(50):
-            connectDevice(className="android.widget.Button", resourceId="cn.vsx.vc:id/ptt").long_click(duration=1)
+        connectDevice(className="android.widget.Button", resourceId="cn.vsx.vc:id/ptt").long_click(duration=2)
+        assert connectDevice(resourceId="cn.vsx.vc:id/ptt", text="按住 说话").exists
+        # connectDevice(className="android.widget.Button", resourceId="cn.vsx.vc:id/ptt").touch.up()
+
         # time.sleep(1)
         # connectDevice(className="android.widget.LinearLayout", resourceId="cn.vsx.vc:id/bv_setting").click(timeout=2)
         # time.sleep(1)
