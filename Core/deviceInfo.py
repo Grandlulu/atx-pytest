@@ -21,11 +21,12 @@ def getDevices():  # 从ATX-Server获取设备列表IP
                 pass
         print(f"devices_list is {devices_list}")
         print(f"devices_list len is {len(devices_list)}")
+        return devices_list
     except:
         time.sleep(1)
         print('reconnect device in 1 sec')
         getDevices()
-    return devices_list
+
 
 
 def getPhoneInfo(devicesIP):  # 从IP信息获取手机信息

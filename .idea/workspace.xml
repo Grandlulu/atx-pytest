@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2858e3c-d77f-4864-8364-d2c56ddfcdf9" name="Default" comment="" />
+    <list default="true" id="c2858e3c-d77f-4864-8364-d2c56ddfcdf9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/deviceInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/deviceInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/rethinkdb_data/0265e862-f7bf-4013-a991-f12d1e375cdf" beforeDir="false" afterPath="$PROJECT_DIR$/Core/rethinkdb_data/0265e862-f7bf-4013-a991-f12d1e375cdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/rethinkdb_data/3406ff45-545c-4109-8fc7-bc0da0107f44" beforeDir="false" afterPath="$PROJECT_DIR$/Core/rethinkdb_data/3406ff45-545c-4109-8fc7-bc0da0107f44" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/rethinkdb_data/ac9c71f5-43ff-480c-8043-c90dd17f1a4a" beforeDir="false" afterPath="$PROJECT_DIR$/Core/rethinkdb_data/ac9c71f5-43ff-480c-8043-c90dd17f1a4a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/rethinkdb_data/log_file" beforeDir="false" afterPath="$PROJECT_DIR$/Core/rethinkdb_data/log_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/rethinkdb_data/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/Core/rethinkdb_data/metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/rethinkdb_data/42870803-bc8c-40f7-a496-fc0a2a33e08a" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/rethinkdb_data/42870803-bc8c-40f7-a496-fc0a2a33e08a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/rethinkdb_data/ab2612d4-ef8c-4abd-8c12-9b4539222480" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/rethinkdb_data/ab2612d4-ef8c-4abd-8c12-9b4539222480" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/rethinkdb_data/b2f6adc9-a66a-498c-bb47-8c3a2d58baf3" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/rethinkdb_data/b2f6adc9-a66a-498c-bb47-8c3a2d58baf3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/rethinkdb_data/log_file" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/rethinkdb_data/log_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/rethinkdb_data/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/rethinkdb_data/metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_groupCall.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_groupCall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/attachments/43c887b665e4803f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/attachments/c72194c7eb491a9c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/attachments/ca0e66200d0da538.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/test-cases/ca4c6374218dd284.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/280f4c7a-31a9-4865-94d2-eabc1d6bb447-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/3de12511-4614-4d46-b333-bae55265ffd5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/633bad73-eb3d-487c-ab5d-ec3f5c2ecfae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/7ac4d8fe-de43-43e5-a220-cf5f815c913f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/7f96fe1b-7f57-434b-8807-e4e842e8f070-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-54ac4c45/xml/e2884069-d415-49e8-ba74-a160059fa4b1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/attachments/c4cada941e7289ba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/attachments/d8c3b541a6045aa3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/attachments/dd3f3a22768bf249.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/test-cases/957187106a204937.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/26f2c6ac-c4e3-4e8d-92ce-769b20c9a4e2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/5198acdd-eebd-4ed1-a872-89dae848f5d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/5bc616e3-81b3-4cb1-a4b0-27de216201c4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/6da96d71-be73-438c-9985-2a1f4f3e76f3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/bf45a544-3593-48b1-8679-23fe622596b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-GWY0217826004514/xml/c71a2e4a-fb42-4fc3-90f9-44624c9863c6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/attachments/9d1f0c947d21553a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/attachments/bb9f97d4c2e664b7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/attachments/f61d128a6c3fd5f2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/test-cases/ff242268dd4a109f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/11e35769-1e94-40a3-9565-fde44632536e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/14c7eaca-2840-4027-a1d9-b249cc9f7d0b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/52259e45-be09-4dac-9207-1b4271abfc16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/c05ea42f-1bb3-4718-8ba3-e6b1f0151b98-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/d78e5469-968d-4436-9753-324b270ea2c4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-HEE6R15706006123/xml/f59e17b6-834f-4c4a-bbe8-231a83c5e2a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +177,8 @@
       <file leaf-file-name="deviceInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/deviceInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="348">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="e#75#92#0" expanded="true" />
               </folding>
@@ -23,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runner/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            <state relative-caret-position="357">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
               <folding>
                 <element signature="e#79#129#0" expanded="true" />
               </folding>
@@ -35,14 +198,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WEditorTool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/WEditorTool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="phoneInit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/phoneInit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#75#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="277">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -50,29 +219,17 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#170#183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtures.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/fixtures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="1099" column="17" selection-start-line="1099" selection-start-column="17" selection-end-line="1099" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_groupCall.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_groupCall.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/test_groupCall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            <state relative-caret-position="504">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="e#74#87#0" expanded="true" />
               </folding>
@@ -80,14 +237,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="409">
-                <caret line="41" selection-start-line="41" selection-end-line="41" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/uiautomator2/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="694" column="11" selection-start-line="694" selection-start-column="11" selection-end-line="694" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -95,7 +249,7 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="403">
               <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
               <folding>
                 <element signature="e#82#91#0" expanded="true" />
@@ -118,7 +272,12 @@
       <find>encoding</find>
       <find>start running</find>
       <find>atx_server</find>
+      <find>child</find>
+      <find>connected</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,21 +288,26 @@
         <option value="$PROJECT_DIR$/Core/phoneInit.py" />
         <option value="$PROJECT_DIR$/Runner/ceshi.py" />
         <option value="$PROJECT_DIR$/Core/WEditorTool.py" />
-        <option value="$PROJECT_DIR$/Core/deviceInfo.py" />
         <option value="$PROJECT_DIR$/Doc/README.md" />
-        <option value="$PROJECT_DIR$/Runner/run.py" />
-        <option value="$PROJECT_DIR$/TestCases/test_groupCall.py" />
+        <option value="$PROJECT_DIR$/Core/log.py" />
         <option value="$PROJECT_DIR$/TestCases/conftest.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_groupCall.py" />
+        <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/TestCases/ceshi.json" />
+        <option value="$PROJECT_DIR$/TestCases/ceshi.py" />
         <option value="$PROJECT_DIR$/Core/server.py" />
+        <option value="$PROJECT_DIR$/Core/deviceInfo.py" />
+        <option value="$PROJECT_DIR$/Runner/run.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="68" />
+    <option name="y" value="2" />
     <option name="width" value="1683" />
     <option name="height" value="1007" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -170,18 +334,13 @@
             <path>
               <item name="atx-pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="atx-pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="report-54ac4c45" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atx-pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atx-pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="report-54ac4c45" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="report-HEE6R15706006123" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atx-pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="atx-pytest" type="462c0819:PsiDirectoryNode" />
               <item name="report-HEE6R15706006123" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atx-pytest" type="b2602c69:ProjectViewProjectNode" />
@@ -200,16 +359,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/PyProject" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\atx-pytest\Core" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\atx-pytest\TestCases" />
       <recent name="E:\atx-pytest\Core" />
       <recent name="E:\atx-pytest\Core\rethinkdb_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\atx-pytest\TestCases" />
+      <recent name="E:\atx-pytest" />
+      <recent name="E:\atx-pytest\Core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,7 +405,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="deviceInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ceshi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="atx-pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,11 +413,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Core/deviceInfo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/ceshi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,19 +478,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.deviceInfo" />
+      <item itemvalue="Python.phoneInit" />
+      <item itemvalue="Python.WEditorTool" />
+      <item itemvalue="Python.ceshi (1)" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.WEditorTool" />
-      <item itemvalue="Python.phoneInit" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
         <item itemvalue="Python.phoneInit" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Python.ceshi (1)" />
         <item itemvalue="Python.WEditorTool" />
-        <item itemvalue="Python.deviceInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +505,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548915719458</updated>
     </task>
+    <task id="LOCAL-00001" summary="add log module">
+      <created>1551754797082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551754797082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -355,19 +525,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="38" width="1683" height="1007" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18054712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1564805" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32988507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35747126" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32352942" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32988507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3852013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38434982" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,12 +543,141 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32988507" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add log module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log module" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Core/phoneInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="34" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="18" selection-start-line="9" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_groupCall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="80" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="80" />
+          <folding>
+            <element signature="e#74#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/uiautomator2/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5901">
+          <caret line="297" column="8" selection-start-line="297" selection-start-column="8" selection-end-line="297" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding>
+            <element signature="e#82#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/WEditorTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/deviceInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#75#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding>
+            <element signature="e#79#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/phoneInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22281">
+          <caret line="1099" column="17" selection-start-line="1099" selection-start-column="17" selection-end-line="1099" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="861">
+            <caret line="41" selection-start-line="41" selection-end-line="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+          <folding>
+            <element signature="e#82#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_groupCall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="e#74#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Core/deviceInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -409,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#75#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -419,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#170#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,16 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/ceshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="94" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="94" />
-          <folding>
-            <element signature="e#75#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/ceshi.py" />
     <entry file="file://E:/Python3.7.1/Lib/concurrent/futures/process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
@@ -532,46 +814,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/WEditorTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Doc/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="409">
+          <first_editor relative-caret-position="861">
             <caret line="41" selection-start-line="41" selection-end-line="41" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/deviceInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#75#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-          <folding>
-            <element signature="e#79#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="22281">
           <caret line="1099" column="17" selection-start-line="1099" selection-start-column="17" selection-end-line="1099" selection-end-column="17" />
         </state>
       </provider>
@@ -583,19 +838,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/phoneInit.py">
+    <entry file="file://$PROJECT_DIR$/Core/logs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="777">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding>
-            <element signature="e#75#84#0" expanded="true" />
+            <element signature="e#77#91#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/uiautomator2/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="694" column="11" selection-start-line="694" selection-start-column="11" selection-end-line="694" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#345#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/ceshi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/WEditorTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/728713677/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="3676" column="8" selection-start-line="3676" selection-start-column="8" selection-end-line="3676" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="403">
           <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
           <folding>
             <element signature="e#82#91#0" expanded="true" />
@@ -603,22 +906,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_groupCall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="504">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
-            <element signature="e#170#183#0" expanded="true" />
+            <element signature="e#74#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_groupCall.py">
+    <entry file="file://$PROJECT_DIR$/Core/deviceInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="348">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding>
-            <element signature="e#74#87#0" expanded="true" />
+            <element signature="e#75#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/phoneInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#79#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
