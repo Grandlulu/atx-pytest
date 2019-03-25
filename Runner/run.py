@@ -57,5 +57,5 @@ def runPytest(device_IP):  # 运行测试
 if __name__ == '__main__':
     server = atx_server()
     server.start_server(serverPath)
-    deviceChecker(1)
+    deviceChecker(2)
     runnerPool(getDevices())

@@ -3,11 +3,6 @@
 # author: lucien
 # package: TestCases
 
-# !/usr/bin/python3.6
-# -*- coding: UTF-8 -*-
-# author: lucien
-# package:  conftest
-
 import pytest
 import uiautomator2 as u2
 
